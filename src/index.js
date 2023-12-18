@@ -19,7 +19,6 @@ function ExamplePage() {
       <div className='sidebar'>
         <Sidebar />
       </div>
-      
     </div>
   );
 }
