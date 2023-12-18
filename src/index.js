@@ -1,18 +1,23 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './index.css'
+import Navigation from './componenets/navigation/Navigation';
+import MainContent from './componenets/main_content/main_content';
+import Sidebar from './componenets/side_bar/side_bar';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-import MyButton from './conponents/MyButton';
 
 function ExamplePage() {
   return (
-    <div className="container">
-      <div className="row">
-        <div className="col-md-8">Main Content</div>
-        <div className="col-md-4">Sidebar</div>
+    <div className="flex-container">
+      <div className='navigation-container'> 
+        <Navigation />
       </div>
-      <div className="row">
-        <MyButton text="Click Me" variant="primary" />
+      <div className='main-content'>
+        <MainContent />
+      </div>
+      <div className='sidebar'>
+        <Sidebar />
       </div>
     </div>
   );
