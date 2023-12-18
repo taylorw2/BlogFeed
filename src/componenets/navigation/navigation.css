@@ -1,0 +1,10 @@
+.navigation-container {
+    background-color: purple; /* Purple background */
+    /* Add any other styles you need */
+  }
+
+.navigation-contents {
+  color: white;
+  text-align: center;
+  list-style-type: none;
+}

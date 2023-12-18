@@ -1,0 +1,19 @@
+.flex-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .navigation-container {
+    flex-basis: 10%; /* 10% of the screen */
+    background-color: purple; /* Example styling */
+  }
+  
+  .main-content {
+    flex-basis: 70%; /* 70% of the screen */
+    /* Additional styling */
+  }
+  
+  .sidebar {
+    flex-basis: 20%; /* Remaining 20% of the screen */
+    /* Additional styling */
+  }
